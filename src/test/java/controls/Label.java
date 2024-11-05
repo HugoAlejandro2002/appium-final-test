@@ -1,0 +1,13 @@
+package controls;
+
+import org.openqa.selenium.By;
+
+public class Label extends AppiumControl {
+    public Label(By locator) {
+        super(locator);
+    }
+
+    public boolean isDisplayed() {
+        return isControlDisplayed();
+    }
+}

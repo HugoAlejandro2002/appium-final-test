@@ -1,0 +1,56 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDEA
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/libraries
+.idea/modules.xml
+.idea/*.iws
+.idea/.name
+
+# Project-specific
+out/
+bin/
+
+# Logs
+*.log
+logs/
+
+# Compiled class files
+*.class
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# Generated files
+*.jar
+*.war
+*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Groovy-related
+**/*.groovy
+
+# Gradle-specific cache files
+.gradle/
+build/
+**/.gradletasknamecache
+
+# Exclude sensitive or environment-specific configuration
+.env
+local.properties
